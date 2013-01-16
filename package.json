@@ -1,0 +1,14 @@
+{
+	"name": "freedom-platform-dev-darwin",
+	"version": "0.1.0",
+	"mappings": {
+		"node": ["sm", "http://nodejs.org/dist/v0.6.19/node-v0.6.19.tar.gz", {
+			"descriptor": {
+				"pm": "make",
+				"bin": {
+					"node": "./node"
+				}
+			}
+		}]
+	}
+}
