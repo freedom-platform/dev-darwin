@@ -1,24 +1,32 @@
 {
-	"name": "freedom-platform-dev-darwin",
-	"version": "0.1.0",
-	"mappings": {
-		"node": ["sm", "http://nodejs.org/dist/v0.6.19/node-v0.6.19.tar.gz", {
-			"descriptor": {
-				"pm": "make",
-				"bin": {
-					"node": "./node"
-				}
-			}
-		}]
-	},
-	"optionalMappings": {
-		"brew": ["sm", "github.com/mxcl/homebrew/tarball/master", {
-			"descriptor": {
-				"pm": "make",
-				"bin": {
-					"brew": "./bin/brew"
-				}
-			}
-		}]
-	}
+    "name": "freedom-platform-dev-darwin",
+    "version": "0.1.1",
+    "mappings": {
+        "node": [
+            "sm",
+            "http://nodejs.org/dist/v0.6.19/node-v0.6.19.tar.gz",
+            {
+                "descriptor": {
+                    "pm": "make",
+                    "bin": {
+                        "node": "./node"
+                    }
+                }
+            }
+        ]
+    },
+    "optionalMappings": {
+        "brew": [
+            "sm",
+            "github.com/mxcl/homebrew/tarball/master",
+            {
+                "descriptor": {
+                    "pm": "make",
+                    "bin": {
+                        "brew": "./bin/brew"
+                    }
+                }
+            }
+        ]
+    }
 }
