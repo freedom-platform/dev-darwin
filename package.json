@@ -10,5 +10,15 @@
 				}
 			}
 		}]
+	},
+	"optionalMappings": {
+		"brew": ["sm", "github.com/mxcl/homebrew/tarball/master", {
+			"descriptor": {
+				"pm": "make",
+				"bin": {
+					"brew": "./bin/brew"
+				}
+			}
+		}]
 	}
 }
