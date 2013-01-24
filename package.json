@@ -1,6 +1,9 @@
 {
     "name": "freedom-platform-dev-darwin",
     "version": "0.1.1",
+    "bin": {
+        "node": "./.sm/bin/node"
+    },
     "mappings": {
         "node": [
             "sm",
