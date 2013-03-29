@@ -6,13 +6,13 @@
     },
     "mappings": {
         "node": [
-            "sm",
-            "http://nodejs.org/dist/v0.6.19/node-v0.6.19.tar.gz",
+            "archive",
+            "http://nodejs.org/dist/v0.8.19/node-v0.8.19-darwin-x64.tar.gz",
             {
                 "descriptor": {
-                    "pm": "make",
                     "bin": {
-                        "node": "./node"
+                        "node": "./bin/node",
+                        "npm": "./bin/npm"
                     }
                 }
             }
